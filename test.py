@@ -1,5 +1,5 @@
 import numpy
-print "test"
+print("test")
 
 yes = "grrr"
-print yes
+print(yes)
