@@ -11,7 +11,22 @@ def message():
     print("test")
     line("-----------------")
 
+def longline(line_string):
+    print(line_string * 10)
+
+def flexline(sign, length):
+    print(sign * int(length))
+
+def getline(sign, length):
+    return sign * length
+
 line("test")
+longline("-")
+flexline("=", 7)
+
+linesample = getline("*", 10)
+print(linesample)
+print(getline("=", 40))
 
 
 # print("Hello World")
@@ -21,3 +36,8 @@ line("test")
 # answer = 6*7
 # print(answer*9)
 
+def pythagoras(a, b):
+    c = math.sqrt(a**2 + b**2)
+    return c
+
+print("The value of c is", pythagoras(2, 4))
