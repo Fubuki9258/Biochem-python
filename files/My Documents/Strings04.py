@@ -1,0 +1,1 @@
+print("Length= {1}, width= {0}, surface = {2}".format(2, 3, 6))
