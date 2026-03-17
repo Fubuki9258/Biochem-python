@@ -7,3 +7,5 @@ num = 5
 twice, trice = twice_trice(num)  # multiple assignment
 multiples = twice_trice(num)  # multiples contains both values (tuple)
 
+print("Twice of", num, "is", twice)
+print("Trice of", num, "is", trice) 
